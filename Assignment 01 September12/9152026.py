@@ -1,0 +1,6 @@
+import requests
+
+res = requests.get("https://lms.ithillel.ua/")
+
+print(res.status_code)
+print(res.content.decode())
