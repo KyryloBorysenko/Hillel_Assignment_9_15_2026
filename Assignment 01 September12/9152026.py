@@ -9,3 +9,7 @@ a = 100
 print(a - 50)
 
 #add new line
+
+
+
+print("Hello my friends")
