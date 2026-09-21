@@ -1,0 +1,43 @@
+#1
+square = int(input("Write your number: "))
+print(square ** 2)
+print()
+
+#2
+num1 = int(input("First number: "))
+num2 = int(input("Second number: "))
+num3 = int(input("Third number: "))
+print((num1 + num2 + num3) / 3)
+print()
+
+#3
+minutes = int(input("How much minutes: "))
+hours = minutes // 60
+hoursMinutes = minutes % 60
+print("it's", hours ,"hours", hoursMinutes, "minutes")
+print()
+
+#4
+price = int(input("Price: "))
+discount = int(input("What is a discount: "))
+totalDiscount = discount / 100
+totalPrice = price - (price * totalDiscount)
+print("Price: " + str(price))
+print("Discount: " + str(discount))
+print("Price with discount: " + str(totalPrice))
+print()
+
+#5!!!
+
+print()
+
+#6
+length = int(input("Length: "))
+width = int(input("Width: "))
+totalPerimeter = (length + width) * 2
+print("Perimeter of a triangle is", totalPerimeter)
+print()
+
+#7!!!
+
+print()
