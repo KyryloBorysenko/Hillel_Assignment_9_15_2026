@@ -39,5 +39,14 @@ print("Perimeter of a triangle is", totalPerimeter)
 print()
 
 #7!!!
+rowNumbers = int(input("Write a numbers (1234): "))
+result1 = rowNumbers // 1000
+result2 = rowNumbers % 4
+result3 = rowNumbers // 325
+result4 = rowNumbers % 6
 
+print(result1)
+print(result2)
+print(result3)
+print(result4)
 print()
