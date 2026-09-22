@@ -43,9 +43,9 @@ print()
 #7
 rowNumbers = int(input("Write a numbers (1234): "))
 result1 = rowNumbers // 1000
-result2 = rowNumbers % 4
-result3 = rowNumbers // 325
-result4 = rowNumbers % 6
+result2 = (rowNumbers // 100) % 10
+result3 = (rowNumbers // 10) % 10
+result4 = rowNumbers % 10
 
 print(result1)
 print(result2)
