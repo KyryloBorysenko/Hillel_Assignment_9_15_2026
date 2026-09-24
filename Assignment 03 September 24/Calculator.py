@@ -5,20 +5,17 @@ if operation == "+":
     secondNum = int(input("Second number: "))
     result = firstNum + secondNum
     print("result: " + str(result))
-
-if operation == "-":
+elif operation == "-":
     firstNum = int(input("First number: "))
     secondNum = int(input("Second number: "))
     result = firstNum - secondNum
     print("result: " + str(result))
-
-if operation == "*":
+elif operation == "*":
     firstNum = int(input("First number: "))
     secondNum = int(input("Second number: "))
     result = firstNum * secondNum
     print("result: " + str(result))
-
-if operation == "/":
+elif operation == "/":
     try:
         firstNum = int(input("First number: "))
         secondNum = int(input("Second number: "))
