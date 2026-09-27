@@ -1,26 +1,20 @@
 operation = input("What do you want +, -, *, /: ")
 
+firstNum = int(input("First number: "))
+secondNum = int(input("Second number: "))
+
 if operation == "+":
-    firstNum = int(input("First number: "))
-    secondNum = int(input("Second number: "))
     result = firstNum + secondNum
     print("result: " + str(result))
 elif operation == "-":
-    firstNum = int(input("First number: "))
-    secondNum = int(input("Second number: "))
     result = firstNum - secondNum
     print("result: " + str(result))
 elif operation == "*":
-    firstNum = int(input("First number: "))
-    secondNum = int(input("Second number: "))
     result = firstNum * secondNum
     print("result: " + str(result))
 elif operation == "/":
-    try:
-        firstNum = int(input("First number: "))
-        secondNum = int(input("Second number: "))
-        result = firstNum / secondNum
-    except ZeroDivisionError:
+    if firstNum == 0:
         print("You can't divide by 0")
     else:
+        result = firstNum / secondNum
         print("result: " + str(result))
