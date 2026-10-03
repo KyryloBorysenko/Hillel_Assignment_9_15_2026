@@ -1,5 +1,8 @@
-list = [1, 15, 64, 54, 76, 132]
+list = [15, 20, 30]
 
-c = list.pop()
-list.insert(0, c)
-print(list)
+if len(list) >= 1:
+    c = list.pop()
+    list.insert(0, c)
+    print(list)
+else:
+    print(list)
